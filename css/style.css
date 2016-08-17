@@ -1,0 +1,44 @@
+/*初始化样式 */
+body, div, p, h1, h2, h3, h4, h5, form, table, dl, dt, dd, ul, li, a, img, span, em, i, strong, b, input, textarea, select, label { margin: 0px;padding: 0px;}
+li {list-style: none;}
+img {border: 0 none;vertical-align: top; width: 100%;}
+em, i {font-style: normal;}
+a { color: #333333;font-family: "FZLTZHK";font-size: 0.34rem;text-decoration: none;}
+a:hover {color: #333333;font-family: "FZLTZHK";font-size: 0.34rem;}
+.clearFix { width: 1004px;height: auto;margin: 0 auto;}
+.clearFix:after {display: block;clear: both;height: 0;visibility: hidden;content: '.';}
+html {font-size: 625%;}
+body {
+    background: #f6f8f7;
+    color: #333333;
+    font-size: 0.24rem;
+    font-family: "黑体";
+    max-width: 750px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+#header{width: 100%;height: auto;}
+#header .intro{margin-top: 0.77rem;}
+#box{width: 100%;height: auto;margin:0.48rem auto 0;}
+#box li{border: 0.02rem #3d3f4e solid;border-radius: 0.58rem;width: 6.89rem;height: 1.41rem;margin:0 auto 0.36rem;}
+#box .box1{height: 1.17rem;}
+#box .box1 .box1left{border-right: 0.02rem #3d3f4e solid;width: 1.09rem;height: 1rem;padding-top: 0.17rem;padding-left: 0.38rem;float: left;}
+#box .box1 .box1left img{width: 0.74rem;}
+#box .box2 .box2left{border-right: 0.02rem #3d3f4e solid;width: 0.95rem;height: 1.02rem;padding-top: 0.39rem;padding-left: 0.52rem;float: left;}
+#box .box2 .box2left img{width: 0.72rem;}
+#box .box3 .box3left{border-right: 0.02rem #3d3f4e solid;width: 0.98rem;height: 1.1rem;padding-top: 0.31rem;padding-left: 0.49rem;float: left;}
+#box .box3 .box3left img{width: 0.78rem;}
+#box li .boxright{width: 4.9rem;height: 100%;padding-left: 0.23rem;float: left;display: block;}
+#box li .spanstyle1{color: #333333;font-size: 0.28rem;line-height: 0.59rem;display: block;}
+#box li .spanstyle2{color: #666666;font-size: 0.24rem;line-height: 0.3rem;display: block;}
+#explain{width: 100%;height: auto;margin-top: 0.7rem;}
+#explain span{display:block;width: 5.81rem;height:0.6rem;line-height: 0.3rem;background:url("../images/stand.jpg") no-repeat 0 0.06rem; background-size:0.04rem 0.2rem;padding-left: 0.15rem;margin: 0.19rem auto 0;}
+#explain .arrow2{display: block;width: 0.6rem;height: 0.5rem;margin-top: -0.18rem;margin-left: 2.7rem;}
+#explain .door{width: 7.09rem;height: auto;margin: 0.03rem auto 0;}
+#explain .door li{width: 3.5rem;float: left;}
+#explain .door .doorright{height:4.73rem;margin-top: -0.06rem;}
+#explain .door .doorleft{height: 4.67rem;margin-right: 0.09rem;}
+#explain .statement{background: url("../images/arrow.jpg") no-repeat right top;background-size:0.71rem 0.7rem;width: 5.93rem; margin: 0 auto;height: 0.30rem;padding-top: 0.43rem;}
+#explain .statement span{margin: 0 auto;}
+#explain .btn{width: 6.15rem;height: 1.17rem;border: 0 none;background: url("../images/btn-bg.jpg") no-repeat;background-size: 6.42rem 1.17rem; margin: 0.86rem auto 0;display: block;color: #ffffff;font-size: 0.32rem;line-height: 1.17rem;padding-left: 0.27rem;}
+#bottom{width: 100%;height: 1.42rem;margin-top: 0.63rem;background: url("../images/bottom.jpg") no-repeat;background-size: 7.5rem 1.42rem;}
